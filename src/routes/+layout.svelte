@@ -1,5 +1,4 @@
 <script>
-	import Header from './Header.svelte';
 	import Nav from '$lib/Nav.svelte';
 	import './styles.css';
 
@@ -7,10 +6,7 @@
 </script>
 
 <div class="app">
-	<Nav
-		ccdata="{data.data[0].rate.slice(0, -5)}"
-	/>
-	<Header />
+	<Nav ccdata={data.data[0].rate.slice(0, -5)} />
 
 	<main>
 		<slot />
