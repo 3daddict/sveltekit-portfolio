@@ -23,7 +23,7 @@
 			</svg>
 			<main class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 				<div class="sm:text-center lg:text-left">
-					<h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
+					<h1 class="text-2xl sm:text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900">
 						<span class="block mb-1 xl:inline">👋 Hello...</span>
 						<span class="block text-blue-600 xl:inline">I like to build things.</span>
 					</h1>
