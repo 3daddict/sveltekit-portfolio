@@ -5,12 +5,6 @@ categories:
     labels:
       - 'feature'
       - 'update'
-      - 'redesign'
-  - title: 'Breaking Changes 🛠'
-    labels:
-      - 'theme-setting'
-      - 'new-template'
-      - 'breaking-change'
   - title: 'Bug Fixes 🐛'
     labels:
       - 'bugfix'
