@@ -1,6 +1,7 @@
 <script>
 	import Hero from '$lib/Hero.svelte';
 	import Interests from '$lib/Interests.svelte';
+	import Latest from '$lib/Latest.svelte';
 </script>
 
 <svelte:head>
@@ -10,3 +11,4 @@
 
 <Hero />
 <Interests />
+<Latest />
