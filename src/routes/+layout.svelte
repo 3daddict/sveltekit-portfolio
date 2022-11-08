@@ -13,6 +13,10 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<div class="w-full p-2 py-8 mt-8 text-center border-t border-gray-200">
+			<span class="inline-flex">
+				&copy; {new Date().getFullYear()} msalvati.com
+			</span>
+		</div>
 	</footer>
 </div>
