@@ -14,7 +14,7 @@
 			<p
 				class="text-2xl sm:text-4xl md:text-6xl mt-2 font-extrabold leading-8 tracking-tight text-gray-900"
 			>
-				Here are some things I 💖 to work with
+				Here are some things I work with
 			</p>
 			<p class="max-w-2xl mt-4 text-base sm:text-lg md:text-xl text-gray-500 lg:mx-auto">
 				I work with a lot of different stacks, platforms and API's. Here are a few that I enjoy
@@ -74,9 +74,9 @@
 						</div>
 					</div>
 					<div class="ml-4">
-						<dt class="text-lg font-medium leading-6 text-gray-900">Svelte</dt>
+						<dt class="text-lg font-medium leading-6 text-gray-900">SvelteKit</dt>
 						<dd class="mt-2 text-base text-gray-500">
-							Svelte is the latest approach to building user interfaces and has quickly become my
+							SvelteKit is the latest approach to building user interfaces and has quickly become my
 							favorite choice when building front-end clients.
 						</dd>
 					</div>
@@ -96,7 +96,7 @@
 						<dt class="text-lg font-medium leading-6 text-gray-900">RESTful API</dt>
 						<dd class="mt-2 text-base text-gray-500">
 							Building a REST API and working with json data from RESTful API Web Services is
-							something I truly enjoy. Data is everything.
+							something work with often. Data is everything.
 						</dd>
 					</div>
 				</div>

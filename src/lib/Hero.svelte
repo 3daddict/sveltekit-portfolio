@@ -30,13 +30,14 @@
 					<p
 						class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
 					>
-						Thanks for checking out my portfolio, here are a few things I like to work with.
+						Thanks for checking out my portfolio. I'm a full stack developer with a passion for
+						building web applications.
 					</p>
 					<div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
 						<div class="rounded-md shadow">
 							<button
 								on:click={scrollToContent(scrollId)}
-								class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+								class="flex mt-8 w-full items-center text-white justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium hover:bg-blue-700 sm:w-auto bg-blue-600"
 							>
 								Get in touch
 							</button>
@@ -46,7 +47,7 @@
 								href="https://github.com/3daddict/"
 								target="_blank"
 								rel="noreferrer"
-								class="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+								class="flex mt-4 sm:mt-8 w-full items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium text-blue-700 hover:bg-blue-200 sm:w-auto bg-blue-100"
 							>
 								GitHub Page
 							</a>
