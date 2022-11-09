@@ -5,6 +5,14 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDW59MNEEB"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-ZDW59MNEEB');
+		</script>
 	</head>
 	<body data-sveltekit-prefetch>
 		<div>%sveltekit.body%</div>
