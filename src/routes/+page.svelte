@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Mike Salvati | Developer" />
+	<meta name="Personal Website Portfolio" content="Mike Salvati | Developer" />
 </svelte:head>
 
 <Hero scrollId="contactSection" />
