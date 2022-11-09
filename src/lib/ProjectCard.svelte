@@ -15,9 +15,16 @@
 			: 'lg:col-start-8 xl:col-start-9'}"
 	>
 		<h3 class="text-lg font-medium text-gray-900">
-			<a class="hover:text-blue-600 hover:underline" href={url} target="blank" rel="noreferrer"
-				>{title}</a
-			>
+			{#if url}
+				<a
+					class={url ? 'hover:text-blue-600 hover:underline' : ''}
+					href={url}
+					target="blank"
+					rel="noreferrer">{title}</a
+				>
+			{:else}
+				<p class={url ? 'hover:text-blue-600 hover:underline' : ''}>{title}</p>
+			{/if}
 		</h3>
 		<dt class="text-base font-semibold tracking-wide text-blue-600 uppercase">
 			{caption}
@@ -34,9 +41,13 @@
 		<div
 			class="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100 shadow hover:md:hover:scale-105 transform transition-transform duration-300 ease-in-out"
 		>
-			<a class="hover:text-blue-600 hover:underline" href={url} target="blank" rel="noreferrer">
+			{#if url}
+				<a class="hover:text-blue-600 hover:underline" href={url} target="blank" rel="noreferrer">
+					<img src={image} alt={altText} class="object-cover object-center" />
+				</a>
+			{:else}
 				<img src={image} alt={altText} class="object-cover object-center" />
-			</a>
+			{/if}
 		</div>
 	</div>
 </div>
