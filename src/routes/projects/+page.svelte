@@ -65,6 +65,11 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Projects</title>
+	<meta name="Project Gallery Page" content="Projects I have worked on recently" />
+</svelte:head>
+
 <section class="bg-white">
 	<div class="mx-auto max-w-2xl px-4 sm:px-6 pt-12 sm:pt-12 sm:pb-6 lg:max-w-7xl lg:px-8">
 		<div class="mx-auto max-w-3xl text-center mb-24">
