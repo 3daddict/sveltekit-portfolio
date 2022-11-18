@@ -14,7 +14,6 @@ I'm a full stack developer... I have extensive Shopify development experience an
 Install `sveltekit-portfolio` with pnpm
 
 ```bash
-  pnpm i sveltekit-portfolio
-  cd msveltekit-portfolio
+  pnpm i
 ```
 Run `pnpm dev` to start dev server.
