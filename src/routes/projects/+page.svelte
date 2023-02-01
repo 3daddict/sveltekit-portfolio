@@ -5,17 +5,18 @@
 	import roarkWebsite from '$lib/images/roark_website@2x.jpg';
 	import kaenonWebsite from '$lib/images/kaenon_website@2x.jpg';
 	import bearmtnWebsite from '$lib/images/bearmtn_website@2x.jpg';
-	import hivefireWebsite from '$lib/images/hivefire_website@2x.jpg';
+	import recipitoWebsite from '$lib/images/recipito_website@2x.jpg';
 
 	const projectData = [
 		{
-			url: '',
-			title: 'Hivefire',
-			caption: 'Coming Soon',
+			url: 'https://react-recipe-search.onrender.com/',
+			title: 'Recipito',
+			caption: 'React Recipe Search',
 			description:
-				'I am building Hivefire with a NodeJS back-end and SvelteKit front-end. The back-end is built with a MongoDB, Mongoose and REST API. The front-end is built with the latest iteration of SvelteKit and styled using TailwindCSS.',
-			image: hivefireWebsite,
-			altText: 'Hivefire web application'
+				'A recipe search app built with React and Styled Components. This app features a search bar, recipe cards, and a recipe detail page.',
+			image: recipitoWebsite,
+			altText: 'Reciptio React web application',
+			gitHub: 'https://github.com/3daddict/react-recipe-search'
 		},
 		{
 			url: 'https://olukai.com',
@@ -91,6 +92,7 @@
 				description={project.description}
 				image={project.image}
 				altText={project.altText}
+				gitHub={project.gitHub}
 				index={i}
 			/>
 		{/each}
