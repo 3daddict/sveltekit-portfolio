@@ -6,6 +6,7 @@
 	export let image;
 	export let altText;
 	export let index;
+	export let gitHub;
 </script>
 
 <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8 mt-12 mb-24">
@@ -32,6 +33,16 @@
 		<p class="mt-2 text-sm text-gray-500">
 			{description}
 		</p>
+		{#if gitHub}
+			<a
+				class="mt-2 text-sm text-blue-600 hover:text-blue-500 hover:underline"
+				href={gitHub}
+				target="blank"
+				rel="noreferrer"
+			>
+				GitHub Repo
+			</a>
+		{/if}
 	</div>
 	<div
 		class="flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8 {index % 2 == 0
